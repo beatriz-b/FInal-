@@ -1,10 +1,11 @@
+
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-int hotelRoom();
-int hallWay();
+void hotelRoom();
+void hallWay();
 int frontOffice();
 int home();
 
@@ -303,3 +304,40 @@ void jail(){
             "That is simply unacceptable!!!" <<endl;
     cout << "LOSER: THE POLICE HAVE BEEN CALLED AND YOU HAVE BEEN BOOKED";
 }
+
+void hotelRoom(){
+    cout <<"--------------------------------------------------------------"<< endl;
+    cout <<""<<endl;
+    cout <<"                   ___________\n"
+           "                 |             |\n"
+           "                 |             |\n"
+           "                 |   (door)    |\n"
+           "                 |             |\n"
+           "                 |             |\n"
+           "                 |             |"<<endl;
+    cout <<"                                              -------\n"
+           "                                             /  | |  \    \n"
+           "                                            /  /   \   \\n"
+           "                                                (pants) \n"
+           "                                         |----------------|\n"
+           "                                           |     (bed)   |"<<endl;
+    cout <<"                                           |"            |<<endl;
+    cout <<"           ________\n"
+           "         | (phone) |"<<endl;
+    cout <<"_________________________________\n"
+           "|  (desk)   |                    |\n"
+           "|           |                    |\n"
+           "|           |                    | "<<endl;
+}
+
+void hallWay({
+    cout <<"           .-._   _ _ _ _ _ _ _ _\n"
+           ".-''-.__.-'00  '-' ' ' ' ' ' ' ' '-.\n"
+           "'.___ '    .   .--_'-' '-' '-' _'-' '._\n"
+           " V: V 'vv-'   '_   '.       .'  _..' '.'.\n"
+           "   '=.____.=_.--'   :_.__.__:_   '.   : :\n"
+           "           (((____.-'        '-.  /   : :\n"
+           " snd                         (((-'\\ .' /\n"
+           "                           _____..'  .'\n"
+           "                          '-._____.-'"<<endl;
+})
